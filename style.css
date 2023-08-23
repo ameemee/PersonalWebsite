@@ -7,50 +7,17 @@ p or .page-header or #banner {
 } */
 
 
-/* CLASS DEFINITIONS */
-.section-header {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 30px;
-}
-
-/* .box {
-    display: inline-block;
-    width: 27%;
-    padding: 20px 30px;
-} */
-
-.site-section {
-    /* margin: 10% 10% 10% 10%; */
-    padding: 10% 10% 5% 10%;
-    font-size: 50px;
-    color: lemonchiffon;
-    background:darkolivegreen;
-    border-style:dotted;
-    border-radius: 1cm; /*rounds the border*/
-}
-
-.section-under-header {
-    /* margin: 5% 5% 10% 10%; */
-    border-style:dashed;
-    border-color:lawngreen;
-    /* padding:0% 5% 0% 5%; */
-}
-
-
-
-
-
-
 /* DEFAULT STYLING GIVEN TO THE WHOLE BODY OF VISIBLE CONTENT */
 body {
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background: black;
-    color:darkolivegreen;
-    ;
+
+    /*hero and base background*/
+    /* background: rgb(199, 220, 233);  */
+    /* background-image: linear-gradient(to right, rgb(199, 219, 255), rgb(248, 248, 208)); */
+    background-image: linear-gradient(to left, rgb(199, 219, 255), rgb(255, 255, 255));
 }
 
 
@@ -59,21 +26,25 @@ body {
 /* no2 */
 header {
     /* background, text colour */
-    background: black;
-    color:aliceblue;
+    /* background: black; */
+    /* color:rgb(23, 61, 95); */
     /* padding: top & bottom 0px, left & right: 30px */
     padding: 0px 30px;
     position: fixed;
     width: 100%;
-    border-style:groove;
+    border-style: groove;
+    background: white;
+    opacity: 0.8;
 }
 
 
 /* no3 */
 header #header-logo {
     /* color: aliceblue; */
-    color:yellowgreen;
-    text-decoration:none;
+
+    /* AMEEMEE | 2023 */
+    color:rgb(139, 160, 200);
+    text-decoration: none;
     /* border-style: dashed; */
     /* padding-left: 40px; */
     /* width: 49%; */
@@ -88,6 +59,7 @@ header img {
     border-radius: 50%;
     margin-right: 8px;
     vertical-align: middle;
+    opacity: 1;
 }
 
 /* no5 */
@@ -102,7 +74,7 @@ header #header-nav {
     display: inline-block;
     text-align: right;
     /* border-style:double; */
-    padding: 0px;
+    /* padding: 0px; */
 }
 
 /* no7 */
@@ -118,7 +90,8 @@ header #header-nav ul li {
 
 /* no9 */
 header #header-nav ul li a {
-    color: rgb(190, 222, 249);
+    /* ABOUT ME, PROJECTS */
+    color: rgb(237, 199, 12);
     /* text-decoration:lightblue wavy underline; */
     text-decoration: none;
     padding: 0px 30px;
@@ -127,29 +100,74 @@ header #header-nav ul li a {
 
 /* no10 */
 header #header-nav ul li a:hover {
-    background: #444;
+    /* background: #444; */
     border-radius: 3px;
     transition: 0.3s ease all;
+
 
     /* background-image: url();
     background-size: cover; */
 }
+
+/* CLASS DEFINITIONS */
+.section-header {
+    text-align: center;
+    /* margin-bottom: 0px; */
+    font-size: 30px;
+    /* background-color: red; */
+    text-itali
+    
+    /* border-style: dotted; */
+}
+
+/* .box {
+    display: inline-block;
+    width: 27%;
+    padding: 20px 30px;
+} */
+a {
+    color: rgb(237, 199, 12);
+}
+
+.site-section {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 50px;
+
+    color: rgb(237, 199, 12);
+
+    background: rgb(255, 255, 255);
+
+    border-style: solid;
+    border-radius: 1cm;
+}
+
+.section-under-header {
+    /* margin: 5% 5% 10% 10%; */
+    /* border-style: dashed; */
+    /* border-color: orange; */
+    /* padding:0% 5% 0% 5%; */
+}
+
 
 
 /* MAIN */
 /* HERO */
 /* h1 */
 
-#hero, #hero-content {
+#hero,
+#hero-content {
     text-align: left;
     background: transparent;
-    border-style:dashed;
+    /* border-style: dashed; */
     border-width: 0.1cm;
-    border-color:mistyrose;
-    line-height:1;
+    /* border-color: yellow; */
+    line-height: 1;
     font-size: 100px;
     /* padding: 0%, 0%, 0%, 0%; */
     /* padding: 1 */
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .subheading {
@@ -161,33 +179,80 @@ header #header-nav ul li a:hover {
 
 /* ABOUT */
 .about {
-    background: #ECF0F1;
     width: 100%;
     padding: 50px 0;
 }
 
-div #aboutMeParagraph {
-    font-size: 50 px;
-    color:darkseagreen;
+#aboutMe {
+    padding-bottom: 5%;
 }
 
+#aboutMeParagraph {
+    font-size: 40%;
+
+
+    /* THIS IS A BIT ABOUT ME HERE */
+    color: rgb(237, 199, 12);
+
+    display: table;
+    background: rgb(243, 247, 255);
+}
+
+#aboutMeParagraph img {
+    width: 100%;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.boxx {
+    float: left;
+    /* width: 40%; */
+    /* padding: 20px; */
+}
+
+#left {
+    width: 30%;
+    /* border-style: dotted; */
+    padding: 1%;
+}
+
+#right {
+    width: 66%;
+    /* border-style: dotted; */
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
 /* PROJECTS SIDE BY SIDE */
+#projects {
+    padding-bottom: 5%;
+}
+
 #sideByside {
-    display: table; /* Make the container element behave like a table */
+    display: table;
+    /* Make the container element behave like a table */
     width: 100%;
     font-size: 20px;
 }
+
 .box {
-    background:rgb(57, 72, 32);
+    /* SOME PAST PROJECTS 3 BOXES */
+    background: rgb(242, 246, 254);
     display: table-cell;
     width: 27%;
     /* padding: 20px 30px;   */
-    border-style: dashed;
-    border-color:lightblue;
+    /* border-style: dashed; */
+    /* border-color: green; */
     /* padding: 1% 0% 1% 1%; */
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
-img, .box-image {
+img,
+.box-image {
     width: 100%;
     height: auto;
 }
@@ -195,15 +260,17 @@ img, .box-image {
 /* FOOTER */
 
 footer {
-    background: #222;
-    color: #777;
-    padding: 40px;
+    /* background: #222; */
+    /* AMEEMEE C 2023 */
+    color: rgb(237, 199, 12);
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
-    border-style:dotted;
-    border-color:rgb(249, 127, 255);
+    /* border-style: dotted;
+    border-color: red; */
 }
 
-footer img   {
+footer img {
     /* display: block;
     border-radius: 50&;
     width: 100%;
@@ -216,8 +283,8 @@ footer img   {
     margin-right: 8px;
     vertical-align: middle; */
     display: block;
-  /* border-radius: 5px; */
-  border-radius: 50%;
-  width: 80px;
-  margin: 0 auto 10px;
+    /* border-radius: 5px; */
+    border-radius: 50%;
+    width: 80px;
+    margin: 0 auto 10px;
 }
