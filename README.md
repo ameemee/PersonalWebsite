@@ -2,4 +2,4 @@
 
 To run the app in the project directory, use: `npm start`.
 
-To visit the site, check out: https://vercel.com/ameemees-projects/personalwebsite !
+To visit the site, check out: https://personalwebsite-sage.vercel.app/ !
