@@ -17,6 +17,8 @@ import img12 from "../assets/art/AZ12.png";
 import img13 from "../assets/art/AZ13.png";
 import img14 from "../assets/art/AZ14.png";
 import img15 from "../assets/art/AZ15.png";
+import img16 from "../assets/art/AZ16.png";
+import img17 from "../assets/art/AZ17.png";
 
 const Row = styled.div`
   display: flex;
@@ -55,16 +57,17 @@ export default function ArtGallery() {
   return (
     <Row>
       <Column>
+        <img src={img16} alt="AZ1" />
         <img src={img1} alt="AZ1" />
         <img src={img2} alt="AZ1" />
         <img src={img3} alt="AZ1" />
-        <img src={img4b} alt="AZ1" />
 
         {/* <img src={img9} alt="AZ1" /> */}
       </Column>
 
       <Column>
-        <img src={img5} alt="AZ1" />
+        <img src={img4b} alt="AZ1" />
+
         <img src={img6} alt="AZ1" />
         <img src={img7} alt="AZ1" />
         <img src={img8} alt="AZ1" />
@@ -75,6 +78,7 @@ export default function ArtGallery() {
         <img src={img13} alt="AZ1" />
         <img src={img14} alt="AZ1" />
         <img src={img15} alt="AZ1" />
+        <img src={img17} alt="AZ1" />
       </Column>
 
       <Column>
