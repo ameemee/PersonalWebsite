@@ -54,6 +54,7 @@ const StyledPageSection = styled.main<{ palette: Palette }>`
 
     & .title {
       margin: 0;
+      padding-bottom: 10px;
     }
 
     & .leftBar {
