@@ -110,17 +110,14 @@ const WebNav = styled.div`
   // ie. does show when screen is wider than 768px
   //     only HIDES when width is LESS than 768px
 
-  border-bottom: solid;
   padding: 0px;
   margin: 0px;
-  // padding-right: 16px;
   padding: 10px;
 
   display: flex;
   justify-content: space-between;
 
   ul {
-    // border: solid;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
@@ -132,7 +129,6 @@ const WebNav = styled.div`
   }
 
   ul.right {
-    // border: dashed;
     padding-right: 20px;
   }
 
@@ -147,7 +143,6 @@ const MobileNav = styled.div`
   display: none;
 
   @media (max-width: 768px) {
-    border-bottom: solid;
     padding: 0px;
     margin: 0px;
     padding: 10px;
@@ -160,7 +155,6 @@ const MobileNav = styled.div`
 const Dropdown = styled.div`
   display: flex;
   justify-content: center;
-  // align-items: center;
   height: 0;
   overflow: hidden;
   transition: height 0.5s ease-out;
@@ -238,27 +232,6 @@ export default function NavBar({ palette }: { palette: Palette }) {
             palette={palette}
             onClickFxn={clickNavOpener}
           />
-
-          {/* <li>
-            <a href="#who" onClick={clickNavOpener}>
-              WHO
-            </a>
-          </li>
-          <li>
-            <a href="#what" onClick={clickNavOpener}>
-              WHAT
-            </a>
-          </li>
-          <li>
-            <a href="#why" onClick={clickNavOpener}>
-              WHY
-            </a>
-          </li>
-          <li>
-            <a href="#where" onClick={clickNavOpener}>
-              WHERE
-            </a>
-          </li> */}
         </OpenedDropdown>
       </Dropdown>
     </StyledNav>
