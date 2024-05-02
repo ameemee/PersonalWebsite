@@ -56,7 +56,7 @@ export default function WhatSection({ palette }: { palette: Palette }) {
       </WhyBlurb>
       <WhyBlurb>
         <div>BECAUSE I BELIEVE:</div>
-        Just because something works, doesn't meant it can't be improved
+        Just because something works, doesn't mean it can't be improved
         <br />
         <br />
         (said best by Princess Shuri, MCU)
