@@ -3,6 +3,11 @@
 
 To visit the site, check out: https://personalwebsite-sage.vercel.app/ !
 
+In a hurry? Here's a preview of what it looks like!
+
+<img width="271" alt="Screenshot 2024-05-08 at 10 34 23 PM" src="https://github.com/ameemee/PersonalWebsite/assets/121129755/1d5fd1e4-b070-4f83-9eb4-d6159b698250">
+
+
 To run the app in the project directory, use: `npm start`.
 
 There are more thins I want to do with this project. Here's a backlog of tasks:
