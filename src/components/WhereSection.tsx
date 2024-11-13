@@ -62,7 +62,7 @@ export default function WhereSection({ palette }: { palette: Palette }) {
     <WhereContainer palette={palette}>
       <WhereBlurb>LETS KEEP IN TOUCH</WhereBlurb>
       <WhereBlurb>
-        amy.zhuozl@gmail.com
+        amy.zlzhuo@gmail.com
         <div>
           <a
             href="https://github.com/ameemee"
