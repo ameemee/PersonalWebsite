@@ -87,11 +87,11 @@ export default function Header({
             CS &nbsp;| Statistics &nbsp;|&nbsp; Combinatorics & Optimization{" "}
             <br />
             <br />
-            {/* Software Development <br /> */}
-            Software Engineer Intern @ Wave <br />
-            Seeking Fall 2023 Internships <br />
+            Software Engineer Intern @{" "}
+            <span style={{ color: "#96bf47" }}>Shopify</span> <br />
+            Seeking Summer 2025 Internships <br />
             <br />
-            amy.zhuozl@gmail.com
+            amy.zlzhuo@gmail.com
           </p>
         </StyledBox>
       </StyledRow>

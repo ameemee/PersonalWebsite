@@ -54,7 +54,7 @@ function App() {
         <div id="what">
           <PageSection
             palette={palette}
-            title={"WHAT (DO I DO)"}
+            title={"WHAT (I DO)"}
             content={<WhatSection palette={palette} />}
           />
         </div>
