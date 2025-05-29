@@ -41,7 +41,7 @@ const LeftNavItems = ({ palette }: { palette: Palette }) => {
         >
           <img
             src={
-              palette.background === "linen"
+              palette.mode === "light"
                 ? githubIconLightMode
                 : githubIconDarkMode
             }
@@ -181,13 +181,13 @@ export default function NavBar({ palette }: { palette: Palette }) {
 
   if (isOpen) {
     mobileNavIcon =
-      palette.background === "linen" ? NavLightModeOpened : NavDarkModeOpened;
+      palette.mode === "light" ? NavLightModeOpened : NavDarkModeOpened;
   }
 
   function clickNavOpener() {
     console.log("prev was", isOpen);
     mobileNavIcon =
-      palette.background === "linen" ? NavLightModeClosed : NavDarkModeClosed;
+      palette.mode === "light" ? NavLightModeClosed : NavDarkModeClosed;
     setIsOpen(!isOpen);
   }
 
