@@ -19,7 +19,7 @@ interface Palette {
 const lightTheme: Palette = {
   // background: "linen",
   mode: "light",
-  background: "linen",
+  background: "#f7f6f2",
   color: "#212118",
 };
 
