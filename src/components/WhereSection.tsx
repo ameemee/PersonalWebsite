@@ -71,7 +71,7 @@ export default function WhereSection({ palette }: { palette: Palette }) {
           >
             <img
               src={
-                palette.background === "linen"
+                palette.mode === "light"
                   ? githubIconLightMode
                   : githubIconDarkMode
               }

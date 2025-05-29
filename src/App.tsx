@@ -16,14 +16,13 @@ interface Palette {
   color: string;
 }
 
-const lightTheme: Palette = {
-  // background: "linen",
+export const lightTheme: Palette = {
   mode: "light",
   background: "#f7f6f2",
   color: "#212118",
 };
 
-const darkTheme: Palette = {
+export const darkTheme: Palette = {
   mode: "dark",
   background: "#212118",
   color: "linen",

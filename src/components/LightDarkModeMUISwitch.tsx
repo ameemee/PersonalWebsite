@@ -27,7 +27,7 @@ const LightDarkModeMUISwitch = styled(Switch)(
         "& + .MuiSwitch-track": {
           opacity: 1,
           // backgroundColor: theme.mode === "dark" ? "#8796A5" : "#aab4be",
-          backgroundColor: theme.mode === "dark" ? "linen" : "#aab4be",
+          backgroundColor: "#aab4be",
         },
       },
     },
@@ -53,7 +53,7 @@ const LightDarkModeMUISwitch = styled(Switch)(
     "& .MuiSwitch-track": {
       opacity: 1,
       // backgroundColor: theme.mode === "dark" ? "#8796A5" : "#aab4be",
-      backgroundColor: theme.mode === "dark" ? "green" : "#aab4be",
+      backgroundColor: "#aab4be",
       borderRadius: 20 / 2,
     },
   })
