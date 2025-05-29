@@ -88,8 +88,8 @@ export default function Header({
             <br />
             <br />
             Software Engineer Intern @{" "}
-            <span style={{ color: "#96bf47" }}>Shopify</span> <br />
-            Seeking Summer 2025 Internships <br />
+            <span style={{ color: "#FF9900" }}>Amazon</span> <br />
+            Seeking Fall 2025 Internships <br />
             <br />
             amy.zlzhuo@gmail.com
           </p>
