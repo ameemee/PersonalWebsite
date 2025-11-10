@@ -16,14 +16,13 @@ interface Palette {
   color: string;
 }
 
-const lightTheme: Palette = {
-  // background: "linen",
+export const lightTheme: Palette = {
   mode: "light",
-  background: "linen",
+  background: "#f7f6f2",
   color: "#212118",
 };
 
-const darkTheme: Palette = {
+export const darkTheme: Palette = {
   mode: "dark",
   background: "#212118",
   color: "linen",
@@ -54,7 +53,7 @@ function App() {
         <div id="what">
           <PageSection
             palette={palette}
-            title={"WHAT (DO I DO)"}
+            title={"WHAT (I DO)"}
             content={<WhatSection palette={palette} />}
           />
         </div>
