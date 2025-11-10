@@ -87,9 +87,9 @@ export default function Header({
             CS &nbsp;| Statistics &nbsp;|&nbsp; Combinatorics & Optimization{" "}
             <br />
             <br />
-            Software Engineer Intern @{" "}
-            <span style={{ color: "#FF9900" }}>Amazon</span> <br />
-            Seeking Fall 2025 Internships <br />
+            Software Engineering Intern @{" "}
+            <span style={{ color: "#E60023" }}>Pinterest</span> <br />
+            Seeking New Grad Software Engineering Positions' <br />
             <br />
             amy.zlzhuo@gmail.com
           </p>

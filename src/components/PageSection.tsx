@@ -3,8 +3,6 @@ import styled from "styled-components";
 
 import Palette from "./App.tsx";
 
-import WhatSection from "./WhatSection.tsx";
-
 const StyledPageSection = styled.main<{ palette: Palette }>`
   display: flex;
   // border: solid pink;
